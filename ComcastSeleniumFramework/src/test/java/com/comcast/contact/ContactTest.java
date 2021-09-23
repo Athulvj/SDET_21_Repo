@@ -17,4 +17,8 @@ public class ContactTest {
 	public void deleteContactTest() {
 		System.out.println("contact is deleted");
 	}
+	
+	public void createContactForTest() {
+		System.out.println("contact created for Test");
+	}
 }
