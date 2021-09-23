@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T07:23:12Z" name="Suite" finished-at="2021-09-23T07:23:12Z" duration-ms="24">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.createContactTest()[pri:0, instance:com.comcast.contact.ContactTest@291caca8]" name="createContactTest" class="com.comcast.contact.ContactTest"/>
+        <method signature="OrgTest.createOrgTest()[pri:0, instance:com.comcast.org.OrgTest@1190200a]" name="createOrgTest" class="com.comcast.org.OrgTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2021-09-23T07:23:12Z" name="Test" finished-at="2021-09-23T07:23:12Z" duration-ms="24">
+      <class name="com.comcast.org.OrgTest">
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.org.OrgTest@1190200a]" started-at="2021-09-23T12:53:12Z" name="createOrgTest" finished-at="2021-09-23T12:53:12Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+      </class> <!-- com.comcast.org.OrgTest -->
+      <class name="com.comcast.contact.ContactTest">
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.contact.ContactTest@291caca8]" started-at="2021-09-23T12:53:12Z" name="createContactTest" finished-at="2021-09-23T12:53:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+      </class> <!-- com.comcast.contact.ContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
